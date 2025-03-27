@@ -18,6 +18,7 @@ Plug 'HerringtonDarkholme/yats.vim' " TS Syntax
 Plug 'ryanoasis/vim-devicons'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'projekt0n/github-nvim-theme', { 'tag': 'v0.0.7' }
+Plug 'https://github.com/adelarsq/vim-matchit'
 " Initialize plugin system
 call plug#end()
 
@@ -83,7 +84,7 @@ let mapleader = ","
 let g:mapleader = ","
 
 
-source ~/matchit/plugin/matchit.vim
+source /home/$USER/.vim/plugged/vim-matchit/plugin/matchit.vim
 
 set number
 
